@@ -15,6 +15,7 @@ return {
 		lazy = false,
 		config = true,
 	},
+  { "hrsh7th/cmp-cmdline" },
 	{
 		"hrsh7th/nvim-cmp",
 		lazy = false,
