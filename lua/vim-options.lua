@@ -26,3 +26,6 @@ vim.api.nvim_set_keymap("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true
 
 -- Set mapping for Ctrl-u
 vim.api.nvim_set_keymap("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
+
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = "Find Buffers"})
